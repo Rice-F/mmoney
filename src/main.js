@@ -13,10 +13,13 @@ import 'styles/reset.css'
 import 'styles/border.css'
 // 解决不支持promise的手机会出现白屏的问题
 import 'babel-polyfill'
+// 无限加载
+import VueScroller from 'vue-scroller'
 
 Vue.config.productionTip = false
 fastClick.attach(document.body)
 Vue.use(VueAwesomeSwiper)
+Vue.use(VueScroller)
 
 /* eslint-disable no-new */
 new Vue({

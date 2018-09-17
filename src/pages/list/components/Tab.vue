@@ -18,137 +18,391 @@
         </tab-item>
       </tab>
       <div class="tab-swiper vux-center">
-        <ul>
-          <li class="item border-bottom">
-            <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
-            <div class="item-info">
-              <div class="item-title">
-                <p class="name">创意1</p>
-                <p class="pnum">申请人数：<span>2932</span></p>
+        <scroller :style="{top: ulTop}">
+          <ul>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
               </div>
-              <div class="item-cost">
-                <p class="limit">额度：<span>1000-5000</span></p>
-                <p class="pay">费用：<span>0.02%</span></p>
+              <div class="triangle-top-left"></div>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
               </div>
-              <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
-            </div>
-            <div class="triangle-top-left"></div>
-          </li>
-          <li class="item border-bottom">
-            <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
-            <div class="item-info">
-              <div class="item-title">
-                <p class="name">创意1</p>
-                <p class="pnum">申请人数：<span>2932</span></p>
+              <div class="triangle-top-left"></div>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
               </div>
-              <div class="item-cost">
-                <p class="limit">额度：<span>1000-5000</span></p>
-                <p class="pay">费用：<span>0.02%</span></p>
+              <div class="triangle-top-left"></div>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
               </div>
-              <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
-            </div>
-            <div class="triangle-top-left"></div>
-          </li>
-          <li class="item border-bottom">
-            <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
-            <div class="item-info">
-              <div class="item-title">
-                <p class="name">创意1</p>
-                <p class="pnum">申请人数：<span>2932</span></p>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
               </div>
-              <div class="item-cost">
-                <p class="limit">额度：<span>1000-5000</span></p>
-                <p class="pay">费用：<span>0.02%</span></p>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
               </div>
-              <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
-            </div>
-            <div class="triangle-top-left"></div>
-          </li>
-          <li class="item border-bottom">
-            <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
-            <div class="item-info">
-              <div class="item-title">
-                <p class="name">创意1</p>
-                <p class="pnum">申请人数：<span>2932</span></p>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
               </div>
-              <div class="item-cost">
-                <p class="limit">额度：<span>1000-5000</span></p>
-                <p class="pay">费用：<span>0.02%</span></p>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
               </div>
-              <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
-            </div>
-          </li>
-          <li class="item border-bottom">
-            <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
-            <div class="item-info">
-              <div class="item-title">
-                <p class="name">创意1</p>
-                <p class="pnum">申请人数：<span>2932</span></p>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
               </div>
-              <div class="item-cost">
-                <p class="limit">额度：<span>1000-5000</span></p>
-                <p class="pay">费用：<span>0.02%</span></p>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
               </div>
-              <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
-            </div>
-          </li>
-          <li class="item border-bottom">
-            <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
-            <div class="item-info">
-              <div class="item-title">
-                <p class="name">创意1</p>
-                <p class="pnum">申请人数：<span>2932</span></p>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
               </div>
-              <div class="item-cost">
-                <p class="limit">额度：<span>1000-5000</span></p>
-                <p class="pay">费用：<span>0.02%</span></p>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
               </div>
-              <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
-            </div>
-          </li>
-          <li class="item border-bottom">
-            <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
-            <div class="item-info">
-              <div class="item-title">
-                <p class="name">创意1</p>
-                <p class="pnum">申请人数：<span>2932</span></p>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
               </div>
-              <div class="item-cost">
-                <p class="limit">额度：<span>1000-5000</span></p>
-                <p class="pay">费用：<span>0.02%</span></p>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
               </div>
-              <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
-            </div>
-          </li>
-          <li class="item border-bottom">
-            <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
-            <div class="item-info">
-              <div class="item-title">
-                <p class="name">创意1</p>
-                <p class="pnum">申请人数：<span>2932</span></p>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
               </div>
-              <div class="item-cost">
-                <p class="limit">额度：<span>1000-5000</span></p>
-                <p class="pay">费用：<span>0.02%</span></p>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
               </div>
-              <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
-            </div>
-          </li>
-          <li class="item border-bottom">
-            <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
-            <div class="item-info">
-              <div class="item-title">
-                <p class="name">创意1</p>
-                <p class="pnum">申请人数：<span>2932</span></p>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
               </div>
-              <div class="item-cost">
-                <p class="limit">额度：<span>1000-5000</span></p>
-                <p class="pay">费用：<span>0.02%</span></p>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
               </div>
-              <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
-            </div>
-          </li>
-        </ul>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
+              </div>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
+              </div>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
+              </div>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
+              </div>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
+              </div>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
+              </div>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
+              </div>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
+              </div>
+            </li>
+            <li class="item border-bottom">
+              <img class="item-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg" alt="">
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="name">创意1</p>
+                  <p class="pnum">申请人数：<span>2932</span></p>
+                </div>
+                <div class="item-cost">
+                  <p class="limit">额度：<span>1000-5000</span></p>
+                  <p class="pay">费用：<span>0.02%</span></p>
+                </div>
+                <p class="desc">审核到账5-10分钟，不需要任何前期费用</p>
+              </div>
+            </li>
+          </ul>
+        </scroller>
       </div>
     </div>
   </div>
@@ -158,6 +412,14 @@
 import { Tab, TabItem, Swiper, SwiperItem } from 'vux'
 export default {
   name: 'ListTab',
+  mounted () {
+    // for (var i = 1; i <= 20; i++) {
+    //   this.items.push(i + ' - keep walking, be 2 with you.')
+    // }
+    // this.top = 1
+    // this.bottom = 20
+    this.getInitHeight()
+  },
   components: {
     Tab,
     TabItem,
@@ -168,19 +430,26 @@ export default {
     return {
       list2: ['最新口子', '热门口子', '推荐口子'],
       index: 0,
-      demo2: '最新口子'
+      demo2: '最新口子',
+      ulTop: 0
     }
   },
   methods: {
-    handler (index) {
-      if (index === 0) {
-        this.ulDate = [0, 1, 2]
-      } else if (index === 1) {
-        this.ulDate = [3, 4, 5]
-      } else {
-        this.ulDate = [6, 7, 8]
-      }
+    getInitHeight () {
+      let clientHeight = window.innerHeight
+      let domHeight = document.getElementsByClassName('tab-swiper')[0].offsetTop
+      this.ulTop = (Math.round(domHeight / clientHeight * 10000) / 100.00 + '%')
     }
+    // infinite (done) {
+    //   setTimeout(() => {
+    //     var start = this.bottom + 1
+    //     for (var i = start; i < start + 10; i++) {
+    //       this.items.push(i + ' - keep walking, be 2 with you.')
+    //     }
+    //     this.bottom = this.bottom + 10
+    //     done()
+    //   }, 1500)
+    // }
   }
 }
 </script>
