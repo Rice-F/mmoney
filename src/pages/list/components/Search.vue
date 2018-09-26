@@ -31,9 +31,7 @@ export default {
     background #f7f7f7
     .search-input
       flex 1
-      height .64rem
-      line-height .64rem
-      padding-left .2rem
+      padding .2rem 0 .2rem .2rem
       background #fff
     button
       min-width 1.4rem
