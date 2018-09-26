@@ -1,14 +1,17 @@
 <template>
   <div class="info">
     <div class="wrapper">
-      <p>新产品上线，放款快，随机抽取样本进行电话回访，银行卡到款，不需要征信，攻略仅供参考</p>
+      <p>{{dataInfo.desc}}</p>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'DetailInfo'
+  name: 'DetailInfo',
+  props: {
+    dataInfo: Object
+  }
 }
 </script>
 

@@ -7,14 +7,14 @@
             <span class="icon"></span>
             <p class="name">借款金额</p>
           </div>
-          <div class="pay">1000-5000元</div>
+          <div class="pay">{{dataInfo.limit}}元</div>
         </div>
         <div class="borrow-life">
           <div class="life-name">
             <span class="icon"></span>
             <p class="name">借款期限</p>
           </div>
-          <div class="day">7-14天</div>
+          <div class="day">{{dataInfo.limit_date}}</div>
         </div>
       </div>
       <div class="borrow-cont border">
@@ -24,9 +24,9 @@
           <p>审核方式</p>
         </div>
         <div class="borrow-cont-info">
-          <p>18周岁以上</p>
-          <p>1天</p>
-          <p>人工审核</p>
+          <p>{{dataInfo.limit_age}}</p>
+          <p>{{dataInfo.apply_time}}</p>
+          <p>{{dataInfo.check_type}}</p>
         </div>
       </div>
     </div>
@@ -35,7 +35,10 @@
 
 <script>
 export default {
-  name: 'DetailBorrow'
+  name: 'DetailBorrow',
+  props: {
+    dataInfo: Object
+  }
 }
 </script>
 
