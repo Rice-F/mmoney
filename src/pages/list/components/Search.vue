@@ -1,15 +1,26 @@
 <template>
   <div class="search">
     <div class="wrapper">
-      <input class="search-input" type="text" placeholder="请输入需要查询的贷款产品">
-      <button>查网贷</button>
+      <input class="search-input" @keyup.enter="handleQueryClick" v-model="inputValue" type="text" placeholder="请输入需要查询的贷款产品">
+      <button @click="handleQueryClick()">查网贷</button>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'ListSearch'
+  name: 'ListSearch',
+  data () {
+    return {
+      inputValue: ''
+    }
+  },
+  methods: {
+    handleQueryClick () {
+      let value = this.inputValue.trim()
+      this.$emit('search', value)
+    }
+  }
 }
 </script>
 

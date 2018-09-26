@@ -1,8 +1,8 @@
 <template>
   <div>
     <list-swiper :swiperInfo="swiperInfo"></list-swiper>
-    <list-search></list-search>
-    <list-tab></list-tab>
+    <list-search @search="handleSearch"></list-search>
+    <list-tab :queryValue="queryValue"></list-tab>
   </div>
 </template>
 
@@ -16,10 +16,13 @@ export default {
   name: 'List',
   mounted () {
     this.getSwiperInfo()
+    // this.getListInfo()
   },
   data () {
     return {
-      swiperInfo: []
+      swiperInfo: [],
+      listInfo: [],
+      queryValue: ''
     }
   },
   components: {
@@ -33,7 +36,17 @@ export default {
         .then((response) => {
           this.swiperInfo = response.data.data
         })
+    },
+    handleSearch (value) {
+      this.queryValue = value
     }
+    // getListInfo () {
+    //   axios.get('/api/product/')
+    //     .then((response) => {
+    //       this.listInfo = response.data.data
+    //       console.log(this.listInfo)
+    //     })
+    // }
   }
 }
 </script>
