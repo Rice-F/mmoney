@@ -5,7 +5,7 @@
        v-for="(item,idx) of swiperInfo"
        :key="idx"
      >
-       <img class="swiper-img" :src="host+item.url" alt="">
+       <a :href="item.path"><img class="swiper-img" :src="host+item.url" alt=""></a>
      </swiper-slide>
      <div class="swiper-pagination"  slot="pagination"></div>
    </swiper>
@@ -25,7 +25,8 @@ export default {
           delay: 3000,
           stopOnLastSlide: false,
           disableOnInteraction: false
-        }
+        },
+        preventClicks: false
       },
       host: 'http://xhqb.ricefur.cn/uploads/'
     }
