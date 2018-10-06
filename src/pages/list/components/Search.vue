@@ -26,16 +26,26 @@ export default {
 
 <style lang="stylus" scoped>
   .wrapper
-    display flex
+    position relative
     padding .2rem .4rem
     background #f7f7f7
     .search-input
-      flex 1
-      padding .2rem 0 .2rem .2rem
+      overflow hidden
+      width 100%
+      height .64rem
+      line-height .64rem
+      padding-left .2rem
+      border-radius .9rem
       background #fff
     button
-      min-width 1.4rem
+      position absolute
+      right .2rem
+      bottom .2rem
+      min-width 1.8rem
+      height .64rem
       text-align center
-      background #0ac19c
-      color #fff
+      border-top-right-radius .9rem
+      border-bottom-right-radius .9rem
+      background #FFF000
+      color #757575
 </style>

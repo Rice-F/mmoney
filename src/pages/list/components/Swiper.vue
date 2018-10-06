@@ -25,8 +25,8 @@ export default {
           delay: 3000,
           stopOnLastSlide: false,
           disableOnInteraction: false
-        },
-        preventClicks: false
+        }
+        // preventClicks: false
       },
       host: 'http://xhqb.ricefur.cn/uploads/'
     }

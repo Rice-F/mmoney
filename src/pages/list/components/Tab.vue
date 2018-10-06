@@ -3,7 +3,7 @@
     <div>
       <tab
         :line-width=2
-        active-color='#0ac19c'
+        active-color='#FFF000'
         v-model="index"
       >
         <tab-item
@@ -38,7 +38,7 @@
               </div>
               <p class="desc">{{item.desc}}</p>
             </div>
-            <div class="triangle-top-left"></div>
+            <img v-if="item.is_recommend === '1'" class="triangle-top-left" src="../../../assets/images/hot.png">
           </router-link>
         </ul>
         <button
@@ -128,6 +128,9 @@ export default {
       let winTop = window.innerHeight
       let scrollTop = document.body.scrollTop + document.documentElement.scrollTop
       let offsetTop = node.offsetTop
+      // console.log(winTop)
+      // console.log(scrollTop)
+      // console.log(offsetTop)
       if (scrollTop + winTop > offsetTop) {
         return true
       } else {
@@ -157,6 +160,7 @@ export default {
     padding: 10px 0;
     margin: 10px auto 0
     background: #fff
+    /*border:1px solid #F9CDAD*/
     border-radius: 3px
   .item
     position relative
@@ -201,9 +205,7 @@ export default {
       position absolute
       top 0
       left 0
-      width: 0;
-      height: 0;
-      border-top: .6rem solid red;
-      border-right: .6rem solid transparent;
+      width .6rem
+      height .6rem
     }
 </style>

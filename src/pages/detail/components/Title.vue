@@ -70,7 +70,7 @@ export default {
           width .35rem
           height .35rem
           margin-right .1rem
-          background-color #70cee5
+          background-color #FFF000
           border-radius 50%
         .num
           float left

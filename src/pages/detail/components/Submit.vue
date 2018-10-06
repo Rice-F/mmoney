@@ -20,10 +20,10 @@ export default {
   width 6rem
   margin-left -3rem
   padding .15rem 0
-  background #517dde
+  background #FFF000
   font-size .38rem
   font-weight bold
   letter-spacing .02rem
-  color #fff
+  color #757575
   border-radius .1rem
 </style>
