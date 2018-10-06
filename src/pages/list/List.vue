@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="list">
     <list-swiper :swiperInfo="swiperInfo"></list-swiper>
     <list-search @search="handleSearch"></list-search>
     <list-tab :queryValue="queryValue"></list-tab>

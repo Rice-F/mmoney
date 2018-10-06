@@ -1,14 +1,22 @@
 <template>
   <div class="submit">
     <div class="wrapper">
-      <button class="btn-submit">贷款申请</button>
+      <button @click="goToUrl(dataInfo.url)" class="btn-submit">贷款申请</button>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'DetailSubmit'
+  name: 'DetailSubmit',
+  props: {
+    dataInfo: Object
+  },
+  methods: {
+    goToUrl (path) {
+      location.href = path
+    }
+  }
 }
 </script>
 

@@ -1,6 +1,7 @@
 <template>
-  <div class="tab">
+  <div class="tab" id="tab">
     <div>
+      <sticky>
       <tab
         :line-width=2
         active-color='#FFF000'
@@ -17,6 +18,7 @@
           {{item}}
         </tab-item>
       </tab>
+      </sticky>
       <div class="tab-swiper vux-center">
         <ul>
           <router-link
@@ -51,7 +53,7 @@
 </template>
 
 <script>
-import { Tab, TabItem, Swiper, SwiperItem } from 'vux'
+import { Tab, TabItem, Swiper, SwiperItem, Sticky } from 'vux'
 import axios from 'axios'
 export default {
   name: 'ListTab',
@@ -72,7 +74,8 @@ export default {
     Tab,
     TabItem,
     Swiper,
-    SwiperItem
+    SwiperItem,
+    Sticky
   },
   data () {
     return {

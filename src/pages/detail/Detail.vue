@@ -3,7 +3,7 @@
     <detail-title :dataInfo="dateInfo"></detail-title>
     <detail-borrow :dataInfo="dateInfo"></detail-borrow>
     <detail-info :dataInfo="dateInfo"></detail-info>
-    <detail-submit></detail-submit>
+    <detail-submit :dataInfo="dateInfo"></detail-submit>
   </div>
 </template>
 
@@ -35,6 +35,7 @@ export default {
       axios.get('/api/product/' + this.$route.params.id)
         .then((response) => {
           this.dateInfo = response.data.data
+          console.log(this.dateInfo)
         })
     }
   }
