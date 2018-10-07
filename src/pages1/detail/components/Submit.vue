@@ -28,7 +28,7 @@ export default {
   width 6rem
   margin-left -3rem
   padding .15rem 0
-  background #FFF000
+  background #336699
   font-size .38rem
   font-weight bold
   letter-spacing .02rem

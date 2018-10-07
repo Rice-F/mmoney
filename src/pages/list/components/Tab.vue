@@ -4,7 +4,7 @@
       <sticky>
       <tab
         :line-width=2
-        active-color='#FFF000'
+        active-color='#336699'
         v-model="index"
       >
         <tab-item
@@ -40,7 +40,7 @@
               </div>
               <p class="desc">{{item.desc}}</p>
             </div>
-            <img v-if="item.is_recommend === '1'" class="triangle-top-left" src="../../../assets/images/hot.png">
+            <img v-if="item.is_recommend === '1'" class="triangle-top-left" src="../../../assets/images/hot2-01.png">
           </router-link>
         </ul>
         <button

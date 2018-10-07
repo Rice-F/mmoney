@@ -46,6 +46,6 @@ export default {
       text-align center
       border-top-right-radius .9rem
       border-bottom-right-radius .9rem
-      background #FFF000
-      color #757575
+      background #336699
+      color #fff
 </style>

@@ -22,14 +22,16 @@ export default {
 
 <style lang="stylus" scoped>
 .btn-submit
-  display block
-  width 6rem
-  margin 1rem auto
+  position fixed
+  bottom .2rem
+  left 50%
+  margin-left -3.5rem
+  width 7rem
   padding .15rem 0
-  background #FFF000
+  background #336699
   font-size .38rem
   font-weight bold
   letter-spacing .02rem
-  color #757575
+  color #fff
   border-radius .1rem
 </style>

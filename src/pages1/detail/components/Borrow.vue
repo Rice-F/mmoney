@@ -62,7 +62,7 @@ export default {
             height .35rem
             margin-right .1rem
             vertical-align top
-            background-color #FFF000
+            background-color #336699
             border-radius 50%
           .name
             display inline-block

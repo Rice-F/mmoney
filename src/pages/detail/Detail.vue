@@ -1,8 +1,8 @@
 <template>
   <div class="detail">
     <x-header
-      style="background: #fff000"
-    >{{dateInfo.name}}</x-header>
+      style="background: #336699"
+    ></x-header>
     <detail-title :dataInfo="dateInfo"></detail-title>
     <detail-borrow :dataInfo="dateInfo"></detail-borrow>
     <detail-info :dataInfo="dateInfo"></detail-info>
@@ -49,11 +49,11 @@ export default {
 
 <style lang="stylus" scoped>
 >>>.vux-header .vux-header-left a
-    color #757575
+    color #fff
 >>>.vux-header .vux-header-left .left-arrow:before
-    border-color #757575
+    border-color #fff
 >>>.vux-header .vux-header-title
-    color #757575
+    color #fff
   .detail
     padding-bottom 1rem
 </style>
