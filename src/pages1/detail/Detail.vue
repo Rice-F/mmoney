@@ -1,8 +1,5 @@
 <template>
   <div class="detail">
-    <x-header
-      style="background: #fff000"
-    >{{dateInfo.name}}</x-header>
     <detail-title :dataInfo="dateInfo"></detail-title>
     <detail-borrow :dataInfo="dateInfo"></detail-borrow>
     <detail-info :dataInfo="dateInfo"></detail-info>
@@ -16,7 +13,6 @@ import DetailTitle from './components/Title'
 import DetailBorrow from './components/Borrow'
 import DetailInfo from './components/Info'
 import DetailSubmit from './components/Submit'
-import { XHeader } from 'vux'
 
 export default {
   name: 'Detail',
@@ -32,8 +28,7 @@ export default {
     DetailTitle,
     DetailBorrow,
     DetailInfo,
-    DetailSubmit,
-    XHeader
+    DetailSubmit
   },
   methods: {
     getDetailInfo () {
@@ -48,12 +43,11 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
->>>.vux-header .vux-header-left a
-    color #757575
->>>.vux-header .vux-header-left .left-arrow:before
-    border-color #757575
->>>.vux-header .vux-header-title
-    color #757575
-  .detail
-    padding-bottom 1rem
+.detail
+  position absolute
+  top 0
+  left 0
+  right 0
+  bottom 0
+  background #e9f2fb
 </style>

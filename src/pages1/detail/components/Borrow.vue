@@ -1,5 +1,5 @@
 <template>
-  <div class="detail-borrow border-bottom">
+  <div class="detail-borrow">
     <div class="wrapper">
       <div class="borrow-title">
         <div class="borrow-balance border-right">

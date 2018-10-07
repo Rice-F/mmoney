@@ -1,5 +1,5 @@
 <template>
-  <div class="info border-bottom">
+  <div class="info">
     <div class="wrapper">
       <p>{{dataInfo.desc}}</p>
     </div>

@@ -1,5 +1,8 @@
 <template>
-  <div class="detail-title border-bottom">
+  <div class="detail-title">
+    <x-header
+      style="background: #fff000"
+    >{{dataInfo.name}}</x-header>
     <div class="wrapper">
       <img class="title-img" :src="host+dataInfo.icon" alt="">
       <div class="title-info">
@@ -42,6 +45,12 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+>>>.vux-header .vux-header-left a
+  color #757575
+>>>.vux-header .vux-header-left .left-arrow:before
+  border-color #757575
+>>>.vux-header .vux-header-title
+  color #757575
 .detail-title
   margin-bottom .25rem
   background #fff
