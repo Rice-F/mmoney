@@ -28,7 +28,7 @@ export default {
         }
         // preventClicks: false
       },
-      host: 'http://xhqb.ricefur.cn/uploads/'
+      host: 'http://api.xiaohuangqianbao.com/uploads/'
     }
   },
   props: {

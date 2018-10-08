@@ -83,7 +83,7 @@ export default {
       index: 0,
       demo2: '最新口子',
       ulTop: 0,
-      host: 'http://xhqb.ricefur.cn/uploads/',
+      host: 'http://api.xiaohuangqianbao.com/uploads/',
       tabInfo: [], // 数据
       clock: null,
       currentTabIndex: 0, // 当前tab下标

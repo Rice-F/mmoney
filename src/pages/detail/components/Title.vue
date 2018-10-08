@@ -29,7 +29,7 @@ export default {
   name: 'DetailTitle',
   data () {
     return {
-      host: 'http://xhqb.ricefur.cn/uploads/'
+      host: 'http://api.xiaohuangqianbao.com/uploads/'
     }
   },
   components: {
