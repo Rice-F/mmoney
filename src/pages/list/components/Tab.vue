@@ -38,7 +38,7 @@
                 <p class="limit">额度：<span>{{item.limit}}</span></p>
                 <p class="pay">费用：<span>{{item.price}}</span></p>
               </div>
-              <p class="desc">{{item.desc}}</p>
+              <p class="desc">{{item.slogan}}</p>
             </div>
             <img v-if="item.is_recommend === '1'" class="triangle-top-left" src="../../../assets/images/hot2-01.png">
           </router-link>
