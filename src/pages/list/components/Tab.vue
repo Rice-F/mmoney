@@ -163,7 +163,6 @@ export default {
     padding: 10px 0;
     margin: 10px auto 0
     background: #fff
-    /*border:1px solid #F9CDAD*/
     border-radius: 3px
   .item
     position relative
@@ -178,6 +177,7 @@ export default {
       border-radius 50%
     .item-info
       flex 1
+      min-width 0
       .item-title,
       .item-cost
         overflow hidden
@@ -204,6 +204,9 @@ export default {
             color #ff7f32
       .desc
         color #a2a2a2
+        overflow hidden
+        white-space nowrap
+        text-overflow ellipsis
     .triangle-top-left {
       position absolute
       top 0
