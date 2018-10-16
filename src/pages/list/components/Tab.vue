@@ -115,7 +115,7 @@ export default {
       if (this.queryValue.length > 0) {
         params += 's=' + this.queryValue + '&'
       }
-      axios.get('/api/product' + params)
+      axios.get('/api/v2/product' + params)
         .then((response) => {
           let apiData = response.data
           console.log(apiData)
